@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.todo {
+  box-shadow: 0 0 3px grey;
+  width: 25rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+p{
+    font-weight: 600;
+}
+.add {
+  background-color: cadetblue;
+  margin: 0.7rem;
+}
+
+.fa-check {
+  color: cadetblue;
+  border: 2px solid cadetblue;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.fa-check:hover {
+  background-color: cadetblue;
+  color: black;
+}
+
+.fa-trash {
+  color: maroon;
+  border: 2px solid maroon;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.fa-trash:hover {
+  color: white;
+  background-color: maroon;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 3.5rem;
+  border-bottom: 0.2px solid lightgrey;
+}
